@@ -25,10 +25,9 @@ __«=»__
 Limitations:  
 - no browser tabs
 - no page-search
-- no right-click menu
+- no right-click menu ...
 - no downloads
-- no audio
-- no cookie saving, no milk
+- no cookie saving, like "Private Window"
 - no addins, no extentions   
 _the perfect browser ha ha!_   
 
