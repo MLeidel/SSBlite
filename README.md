@@ -39,7 +39,7 @@ $ python3 ssb.py {title | "no"} {app URL}
 ```
 
 ### pywebview
-_Build GUI for your Python program with JavaScript, HTML, and CSS._
+_Build GUI for your Python program with JavaScript, HTML, and CSS._  
 https://pywebview.flowrl.com/  
 https://pypi.org/project/pywebview/  
 
