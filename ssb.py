@@ -65,25 +65,25 @@ def on_loaded():
             active_window.set_title(active_window.get_current_url())
     # active_window.get_cookies()
 
-def home_ssd():
+def home_ssb():
     win.load_url(URL)
 
-def back_ssd():
+def back_ssb():
     # win.evaluate_js("history.back()")
     active_window = webview.active_window()
     if active_window:
         active_window.evaluate_js("history.back()")
 
-def forward_ssd():
+def forward_ssb():
     win.evaluate_js("history.forward()")
 
-def reload_ssd():
+def reload_ssb():
      win.evaluate_js("location.reload()")
 
-def exit_ssd():
+def exit_ssb():
     win.destroy()
 
-def search_ssd():
+def search_ssb():
     ''' new search text or URL '''
     js = '''
     let txt = prompt("Enter URL or Search Prompt", "")
@@ -121,12 +121,12 @@ menu_items = [
     wm.Menu(
         '«=»',
         [
-            wm.MenuAction('Back', back_ssd),
-            wm.MenuAction('Forward', forward_ssd),
-            wm.MenuAction('Search or URL', search_ssd),
-            wm.MenuAction('Home', home_ssd),
-            wm.MenuAction('Reload', reload_ssd),
-            wm.MenuAction('Exit', exit_ssd),
+            wm.MenuAction('Back', back_ssb),
+            wm.MenuAction('Forward', forward_ssb),
+            wm.MenuAction('Search or URL', search_ssb),
+            wm.MenuAction('Home', home_ssb),
+            wm.MenuAction('Reload', reload_ssb),
+            wm.MenuAction('Exit', exit_ssb),
         ],
     )
 ]
